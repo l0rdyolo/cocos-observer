@@ -1,10 +1,11 @@
 {
   "imports": {
     "cce:/internal/x/cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js",
-    "cce:/internal/x/prerequisite-imports": "./chunks/b0/b04882f6528f528d23c15a1a07354592145c07ab.js",
+    "cce:/internal/x/prerequisite-imports": "./chunks/52/52c5783aa6cb269f6547b0da83ec062fe79b746b.js",
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Cell.ts": "./chunks/58/58a8130369eab272ba71331a3aeb02ea9d1beee8.js",
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/ColorProvider.ts": "./chunks/d0/d09ded05467039ed855c83482608c3141a0d085b.js",
-    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts": "./chunks/79/797e18df84217fe551162d3a42554a26b2b79f1a.js"
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts": "./chunks/cd/cdad074f6380d682e1440e60248e31e2044231de.js",
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/EventSystem.ts": "./chunks/f9/f9777e4a57ec7b28085fbe1b480037c40974c566.js"
   },
   "scopes": {
     "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js": {
@@ -34,12 +35,13 @@
       "__unresolved_8": "cce:/internal/x/cc-fu/particle",
       "__unresolved_9": "cce:/internal/x/cc-fu/particle-2d"
     },
-    "./chunks/b0/b04882f6528f528d23c15a1a07354592145c07ab.js": {
+    "./chunks/52/52c5783aa6cb269f6547b0da83ec062fe79b746b.js": {
       "__unresolved_0": "./chunks/58/58a8130369eab272ba71331a3aeb02ea9d1beee8.js",
       "__unresolved_1": "./chunks/d0/d09ded05467039ed855c83482608c3141a0d085b.js",
-      "__unresolved_2": "./chunks/79/797e18df84217fe551162d3a42554a26b2b79f1a.js"
+      "__unresolved_2": "./chunks/f9/f9777e4a57ec7b28085fbe1b480037c40974c566.js",
+      "__unresolved_3": "./chunks/cd/cdad074f6380d682e1440e60248e31e2044231de.js"
     },
-    "./chunks/79/797e18df84217fe551162d3a42554a26b2b79f1a.js": {
+    "./chunks/cd/cdad074f6380d682e1440e60248e31e2044231de.js": {
       "__unresolved_0": "./chunks/84/84741ad843cea9a440c5d8c2d379669b6551400d.js",
       "__unresolved_1": "./chunks/58/58a8130369eab272ba71331a3aeb02ea9d1beee8.js",
       "cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js"
@@ -50,6 +52,9 @@
       "cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js"
     },
     "./chunks/d0/d09ded05467039ed855c83482608c3141a0d085b.js": {
+      "cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js"
+    },
+    "./chunks/f9/f9777e4a57ec7b28085fbe1b480037c40974c566.js": {
       "cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js"
     }
   }

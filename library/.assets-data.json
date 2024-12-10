@@ -41,5 +41,9 @@
   "943ef76d-fa5a-4429-881e-99d2e013b160": {
     "url": "db://assets/ColorProvider.ts",
     "value": {}
+  },
+  "61ebdf52-7334-491d-b04f-517d248e02f1": {
+    "url": "db://assets/EventSystem.ts",
+    "value": {}
   }
 }

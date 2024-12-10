@@ -12,11 +12,12 @@ export class GridManager extends Component {
     public parentNode: Node = null;
 
     private levelConfig: number[][] = [
-        [0, 1, 2, 1, 0],
-        [0, 1, 2, 1, 0],
-        [0, 1, 2, 1, 0],
-        [0, 1, 2, 1, 0],
-        [0, 0, 0, 0, 0],
+        [0, 0, 1, 0, 0],
+        [0, 1, 0, 1, 0],
+        [0, 0, 0, 0, 1],
+        [0, 0, 0, 0, 1],
+        [0, 0, 0, 0, 1],
+
     ];
 
     @property
