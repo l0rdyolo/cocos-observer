@@ -26,7 +26,7 @@ export class GridManager extends Component {
     start() {
         this.createGrid();
     }
-    
+
     private createGrid() {
         if (!this.cellPrefab || !this.parentNode) {
             console.error('where the fuck is parent and cellPrefab?');
@@ -40,8 +40,6 @@ export class GridManager extends Component {
         for (let row = 0; row < this.levelConfig.length; row++) {
             for (let col = 0; col < this.levelConfig[row].length; col++) {
                 const type = this.levelConfig[this.levelConfig.length - 1 - row][this.levelConfig[row].length - 1 - col];
-                console.log(type);
-    
                 const cellNode = instantiate(this.cellPrefab);
                 const cellComp = cellNode.getComponent(Cell);
                 cellComp.init(type);
