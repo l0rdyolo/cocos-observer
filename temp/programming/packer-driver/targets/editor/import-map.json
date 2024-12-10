@@ -3,8 +3,8 @@
     "cce:/internal/x/cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js",
     "cce:/internal/x/prerequisite-imports": "./chunks/b0/b04882f6528f528d23c15a1a07354592145c07ab.js",
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Cell.ts": "./chunks/58/58a8130369eab272ba71331a3aeb02ea9d1beee8.js",
-    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts": "./chunks/24/247baf6307bc3a5c9bc694df1422767bd91d825f.js",
-    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/ColorProvider.ts": "./chunks/d0/d09ded05467039ed855c83482608c3141a0d085b.js"
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/ColorProvider.ts": "./chunks/d0/d09ded05467039ed855c83482608c3141a0d085b.js",
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts": "./chunks/a5/a5a4209007c9ef391eb75ebefcae59f5c724e415.js"
   },
   "scopes": {
     "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js": {
@@ -37,9 +37,9 @@
     "./chunks/b0/b04882f6528f528d23c15a1a07354592145c07ab.js": {
       "__unresolved_0": "./chunks/58/58a8130369eab272ba71331a3aeb02ea9d1beee8.js",
       "__unresolved_1": "./chunks/d0/d09ded05467039ed855c83482608c3141a0d085b.js",
-      "__unresolved_2": "./chunks/24/247baf6307bc3a5c9bc694df1422767bd91d825f.js"
+      "__unresolved_2": "./chunks/a5/a5a4209007c9ef391eb75ebefcae59f5c724e415.js"
     },
-    "./chunks/24/247baf6307bc3a5c9bc694df1422767bd91d825f.js": {
+    "./chunks/a5/a5a4209007c9ef391eb75ebefcae59f5c724e415.js": {
       "__unresolved_0": "./chunks/84/84741ad843cea9a440c5d8c2d379669b6551400d.js",
       "__unresolved_1": "./chunks/58/58a8130369eab272ba71331a3aeb02ea9d1beee8.js",
       "cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js"
