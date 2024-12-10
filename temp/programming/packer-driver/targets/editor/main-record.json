@@ -535,7 +535,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 952218.0355000198,
+      "mTimestamp": 976339.8514000177,
       "chunkId": "b04882f6528f528d23c15a1a07354592145c07ab",
       "imports": [
         {
@@ -660,11 +660,15 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Cell.ts": {
       "mTimestamp": {
-        "mtime": 1733839342051.5017,
+        "mtime": 1733839609897.9092,
         "uuid": "dd6f0d8d-144b-4a3c-a95f-835eacd55a5d"
       },
-      "chunkId": "45477a42cfe4beb4a156f75b21ecb6011bad79ee",
+      "chunkId": "995cfd5ccc08d4949a0ba1e7c3cd80fae7bc3b36",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -683,6 +687,20 @@
               "column": 50
             }
           }
+        },
+        {
+          "value": "./ColorProvider",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 30
+            },
+            "end": {
+              "line": 2,
+              "column": 47
+            }
+          }
         }
       ],
       "type": "esm",
@@ -690,7 +708,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -705,6 +723,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/ColorProvider.ts"
           },
           "messages": []
         }
@@ -813,6 +845,13 @@
           "messages": []
         }
       ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1733838635282,
+      "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
     }
   }
 }
