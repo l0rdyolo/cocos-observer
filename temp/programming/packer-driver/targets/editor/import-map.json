@@ -1,9 +1,10 @@
 {
   "imports": {
     "cce:/internal/x/cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js",
-    "cce:/internal/x/prerequisite-imports": "./chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js",
+    "cce:/internal/x/prerequisite-imports": "./chunks/b0/b04882f6528f528d23c15a1a07354592145c07ab.js",
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Cell.ts": "./chunks/45/45477a42cfe4beb4a156f75b21ecb6011bad79ee.js",
-    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts": "./chunks/16/161fff16521dd773871930b751c6c59f6936713d.js"
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts": "./chunks/16/161fff16521dd773871930b751c6c59f6936713d.js",
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/ColorProvider.ts": "./chunks/3a/3a26fbe2521166c765ba66eaffe3effbc763ab34.js"
   },
   "scopes": {
     "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js": {
@@ -33,11 +34,15 @@
       "__unresolved_8": "cce:/internal/x/cc-fu/particle",
       "__unresolved_9": "cce:/internal/x/cc-fu/particle-2d"
     },
-    "./chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js": {
+    "./chunks/b0/b04882f6528f528d23c15a1a07354592145c07ab.js": {
       "__unresolved_0": "./chunks/45/45477a42cfe4beb4a156f75b21ecb6011bad79ee.js",
-      "__unresolved_1": "./chunks/16/161fff16521dd773871930b751c6c59f6936713d.js"
+      "__unresolved_1": "./chunks/3a/3a26fbe2521166c765ba66eaffe3effbc763ab34.js",
+      "__unresolved_2": "./chunks/16/161fff16521dd773871930b751c6c59f6936713d.js"
     },
     "./chunks/16/161fff16521dd773871930b751c6c59f6936713d.js": {
+      "cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js"
+    },
+    "./chunks/3a/3a26fbe2521166c765ba66eaffe3effbc763ab34.js": {
       "cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js"
     },
     "./chunks/45/45477a42cfe4beb4a156f75b21ecb6011bad79ee.js": {

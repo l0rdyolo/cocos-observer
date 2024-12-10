@@ -535,8 +535,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 733301.4912,
-      "chunkId": "6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3",
+      "mTimestamp": 952218.0355000198,
+      "chunkId": "b04882f6528f528d23c15a1a07354592145c07ab",
       "imports": [
         {
           "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Cell.ts",
@@ -553,7 +553,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/ColorProvider.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -562,7 +562,21 @@
             },
             "end": {
               "line": 5,
-              "column": 218
+              "column": 220
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 236
+            },
+            "end": {
+              "line": 5,
+              "column": 323
             }
           }
         }
@@ -573,6 +587,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Cell.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/ColorProvider.ts"
           },
           "messages": []
         },
@@ -712,6 +733,58 @@
             "end": {
               "line": 1,
               "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/ColorProvider.ts": {
+      "mTimestamp": {
+        "mtime": 1733839585703.9922,
+        "uuid": "943ef76d-fa5a-4429-881e-99d2e013b160"
+      },
+      "chunkId": "3a26fbe2521166c765ba66eaffe3effbc763ab34",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 84
+            },
+            "end": {
+              "line": 1,
+              "column": 88
             }
           }
         }

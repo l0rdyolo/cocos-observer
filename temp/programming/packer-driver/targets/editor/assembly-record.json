@@ -216,7 +216,7 @@
       },
       "timestamp": 1733839360956
     },
-    "6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3": {
+    "b04882f6528f528d23c15a1a07354592145c07ab": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -228,18 +228,38 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
+            "id": "3a26fbe2521166c765ba66eaffe3effbc763ab34"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
             "id": "161fff16521dd773871930b751c6c59f6936713d"
           },
           "messages": []
         }
       },
-      "timestamp": 1733839368562
+      "timestamp": 1733839587474
+    },
+    "3a26fbe2521166c765ba66eaffe3effbc763ab34": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "ca4374a3008ca85000d465787e739a302e4e4ac6"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1733839587533
     }
   },
   "entries": {
     "cce:/internal/x/cc": "ca4374a3008ca85000d465787e739a302e4e4ac6",
-    "cce:/internal/x/prerequisite-imports": "6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3",
+    "cce:/internal/x/prerequisite-imports": "b04882f6528f528d23c15a1a07354592145c07ab",
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Cell.ts": "45477a42cfe4beb4a156f75b21ecb6011bad79ee",
-    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts": "161fff16521dd773871930b751c6c59f6936713d"
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts": "161fff16521dd773871930b751c6c59f6936713d",
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/ColorProvider.ts": "3a26fbe2521166c765ba66eaffe3effbc763ab34"
   }
 }
