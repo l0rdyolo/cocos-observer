@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 6418496.500200003,
+      "mTimestamp": 6699820.6369999945,
       "chunkId": "07fb1dcca2f4fad0c5a0bf7f0aa6ba570dd5ef4e",
       "imports": [
         {
@@ -629,10 +629,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Cell.ts": {
       "mTimestamp": {
-        "mtime": 1733845052567.2134,
+        "mtime": 1733845332478.8606,
         "uuid": "dd6f0d8d-144b-4a3c-a95f-835eacd55a5d"
       },
-      "chunkId": "f59ad4b2384431807d9e05bd5487fb2999a6393a",
+      "chunkId": "8b69c75cf5fef5587917efc4540c303e05aaefda",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -970,11 +970,15 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1733844873629.3577,
+        "mtime": 1733845235697.256,
         "uuid": "c14d76ef-f761-4f24-9f03-39358602e14b"
       },
-      "chunkId": "f2ff4038e7e2da98601feacdf1d8fd16b8466cd5",
+      "chunkId": "ff602b01987635ae17b314070a203847fb2dc116",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -993,6 +997,34 @@
               "column": 48
             }
           }
+        },
+        {
+          "value": "./EventSystem",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./Events",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 23
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1000,7 +1032,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -1015,6 +1047,27 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/EventSystem.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Events.ts"
           },
           "messages": []
         }

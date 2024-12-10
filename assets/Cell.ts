@@ -7,9 +7,12 @@ const { ccclass } = _decorator;
 @ccclass('Cell')
 export class Cell extends Component {
     public type: number = 0;
+    private m_grounded : boolean = false;
 
     public init(type: number) {
         this.type = type;
+        if(this.type>0) this.m_grounded = true;
+
         ColorProvider.getInstance().changeColor(type, this.node);
         this.registerEvents();
     }
@@ -19,7 +22,8 @@ export class Cell extends Component {
     }
 
     private onPerformAction(actionType: string) {
-        console.log(`Cell at ${this.node.name} performing action: ${actionType}`);
+        if(!this.m_grounded) return;
+            console.log(`Cell at ${this.node.name} performing action: ${actionType}`);
     }
 
     onDestroy() {
