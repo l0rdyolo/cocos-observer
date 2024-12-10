@@ -22,7 +22,7 @@
     "time": 1733838876748.183
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\cocos-observer\\assets\\scenes": {
-    "time": 1733838876736.337,
+    "time": 1733844861689.0188,
     "uuid": "c0079535-347d-4527-ba0a-970f33eafb6b",
     "missing": false
   },
@@ -43,7 +43,7 @@
     "time": 1733839261404.9175
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\cocos-observer\\assets\\Cell.ts": {
-    "time": 1733840063290.697,
+    "time": 1733845052567.2134,
     "uuid": "dd6f0d8d-144b-4a3c-a95f-835eacd55a5d",
     "missing": false
   },
@@ -61,6 +61,22 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\cocos-observer\\assets\\EventSystem.ts": {
     "time": 1733844674799.0535,
     "uuid": "61ebdf52-7334-491d-b04f-517d248e02f1",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\cocos-observer\\assets\\GameManager.ts.meta": {
+    "time": 1733844843461.5645
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\cocos-observer\\assets\\GameManager.ts": {
+    "time": 1733844873629.3577,
+    "uuid": "c14d76ef-f761-4f24-9f03-39358602e14b",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\cocos-observer\\assets\\Events.ts.meta": {
+    "time": 1733845003016.3076
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\cocos-observer\\assets\\Events.ts": {
+    "time": 1733845010527.6497,
+    "uuid": "2115c00c-c86c-4ff8-8a2e-82ab6e896b2f",
     "missing": false
   }
 }

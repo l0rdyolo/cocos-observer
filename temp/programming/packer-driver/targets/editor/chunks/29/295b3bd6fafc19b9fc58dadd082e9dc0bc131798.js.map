@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Events.ts"],"names":["Events"],"mappings":";;;;;;;;;;;;;;;;iBAAYA,M;AAAAA,QAAAA,M;SAAAA,M,sBAAAA,M","sourcesContent":["export enum Events {\n    PerformAction = \"perform-action\",\n}\n"]}

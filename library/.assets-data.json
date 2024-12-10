@@ -45,5 +45,13 @@
   "61ebdf52-7334-491d-b04f-517d248e02f1": {
     "url": "db://assets/EventSystem.ts",
     "value": {}
+  },
+  "c14d76ef-f761-4f24-9f03-39358602e14b": {
+    "url": "db://assets/GameManager.ts",
+    "value": {}
+  },
+  "2115c00c-c86c-4ff8-8a2e-82ab6e896b2f": {
+    "url": "db://assets/Events.ts",
+    "value": {}
   }
 }

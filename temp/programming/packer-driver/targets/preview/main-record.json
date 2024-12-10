@@ -409,8 +409,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 6040941.100900024,
-      "chunkId": "e690d8d21c3264f88cef1049bc05ae341c5f161a",
+      "mTimestamp": 6418496.500200003,
+      "chunkId": "07fb1dcca2f4fad0c5a0bf7f0aa6ba570dd5ef4e",
       "imports": [
         {
           "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Cell.ts",
@@ -455,7 +455,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Events.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
@@ -464,6 +464,34 @@
             },
             "end": {
               "line": 7,
+              "column": 89
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GameManager.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 7
+            },
+            "end": {
+              "line": 8,
+              "column": 94
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
               "column": 94
             }
           }
@@ -489,6 +517,20 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/EventSystem.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Events.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GameManager.ts"
           },
           "messages": []
         },
@@ -587,10 +629,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Cell.ts": {
       "mTimestamp": {
-        "mtime": 1733840063290.697,
+        "mtime": 1733845052567.2134,
         "uuid": "dd6f0d8d-144b-4a3c-a95f-835eacd55a5d"
       },
-      "chunkId": "fffceefae94107117c7a9145a70c4f49cd0297c7",
+      "chunkId": "f59ad4b2384431807d9e05bd5487fb2999a6393a",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -607,11 +649,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 46
+              "column": 52
             },
             "end": {
               "line": 1,
-              "column": 50
+              "column": 56
             }
           }
         },
@@ -626,6 +668,34 @@
             "end": {
               "line": 2,
               "column": 47
+            }
+          }
+        },
+        {
+          "value": "./EventSystem",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 28
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./Events",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 23
+            },
+            "end": {
+              "line": 4,
+              "column": 33
             }
           }
         }
@@ -664,6 +734,20 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/ColorProvider.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/EventSystem.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Events.ts"
           },
           "messages": []
         }
@@ -823,6 +907,132 @@
           },
           "messages": []
         },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/scenes/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1733844843448.828,
+        "uuid": "c14d76ef-f761-4f24-9f03-39358602e14b"
+      },
+      "chunkId": "f7affd2865f54593bdf98914db8f4782ea22ce56",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1733844873629.3577,
+        "uuid": "c14d76ef-f761-4f24-9f03-39358602e14b"
+      },
+      "chunkId": "f2ff4038e7e2da98601feacdf1d8fd16b8466cd5",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Events.ts": {
+      "mTimestamp": {
+        "mtime": 1733845010527.6497,
+        "uuid": "2115c00c-c86c-4ff8-8a2e-82ab6e896b2f"
+      },
+      "chunkId": "295b3bd6fafc19b9fc58dadd082e9dc0bc131798",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
         {
           "resolved": {
             "type": "module",
