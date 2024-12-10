@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 13443.107600003481,
+      "mTimestamp": 5169.632400006056,
       "chunkId": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e",
       "imports": [
         {
@@ -409,11 +409,86 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 13441.88250002265,
-      "chunkId": "d0b5187750a9b5b49aadedeaf74328dc3edecc1c",
-      "imports": [],
+      "mTimestamp": 165788.20480000973,
+      "chunkId": "6b8f85b7feaee65395ce6b5e8080983e7f56d534",
+      "imports": [
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "end": {
+              "line": 4,
+              "column": 94
+            }
+          }
+        }
+      ],
       "type": "esm",
-      "resolutions": []
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts": {
+      "mTimestamp": {
+        "mtime": 1733838800944.6523,
+        "uuid": "eea26715-a493-4418-9a99-c812da4447e9"
+      },
+      "chunkId": "1810675b74f6835c78088740fb5b30fd5addf073",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
     }
   }
 }

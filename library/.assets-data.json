@@ -1,0 +1,23 @@
+{
+  "eea26715-a493-4418-9a99-c812da4447e9": {
+    "url": "db://assets/GridManager.ts",
+    "value": {}
+  },
+  "ba42a388-5835-466a-a18f-d48dfecaa6c4": {
+    "url": "db://assets/prefabs",
+    "value": {}
+  },
+  "c0079535-347d-4527-ba0a-970f33eafb6b": {
+    "url": "db://assets/scenes",
+    "value": {}
+  },
+  "1d5ae420-c030-461c-872e-8d88cb8f7aab": {
+    "url": "db://assets/scenes/scene.scene",
+    "value": {
+      "depends": [
+        "c77ecaa8-c936-46c4-a5b0-98692673ed87",
+        "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+      ]
+    }
+  }
+}
