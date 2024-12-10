@@ -1,59 +1,45 @@
-import { _decorator, Component, Color, director , Node, MeshRenderer, Sprite } from 'cc';
+import { _decorator, Component, Color, director, Node, Sprite } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass("ColorProvider")
-export class  ColorProvider extends Component {
+export class ColorProvider extends Component {
+    private static _instance: ColorProvider | null = null;
 
-    @property
-    public static color1: Color = Color.RED.clone();
+    @property([Color])
+    public colors: Color[] = [];
 
-    @property
-    public static color2: Color = Color.GREEN.clone();
-
-    @property
-    public static color3: Color = Color.BLUE.clone();
-
-    @property
-    public static color4: Color = Color.YELLOW.clone();
-
-    @property
-    public static color5: Color = Color.CYAN.clone();
-
-    @property
-    public static color6: Color = Color.MAGENTA.clone();
-
-    @property
-    public static ground: Color = Color.MAGENTA.clone();
-    
-    @property
-    public static highlight: Color = Color.MAGENTA.clone();
-    
-
-
-
-    public static getColor(type: number): Color {
-        switch (type) {
-            case 0: return this.color1.clone();
-            case 1: return this.color2.clone();
-            case 2: return this.color3.clone();
-            case 3: return this.color4.clone();
-            case 4: return this.color5.clone();
-            case 5: return this.color6.clone();
-            case 6: return this.ground.clone();
-            case 7: return this.highlight.clone();
-            default: return Color.WHITE.clone();
+    onLoad() {
+        if (ColorProvider._instance === null) {
+            ColorProvider._instance = this;
+            director.addPersistRootNode(this.node);
+        } else {
+            this.destroy();
+            console.warn("Only one instance of ColorProvider is allowed.");
         }
     }
 
-    public static changeColor(type : number , node : Node){
-        const sprite = node.getComponent(Sprite)
-        if(sprite){
-            sprite.color = ColorProvider.getColor(type);
-            console.log(node.name , "is changed color");
-            
+    public static getInstance(): ColorProvider {
+        if (!ColorProvider._instance) {
+            console.error("ColorProvider instance is not yet initialized.");
         }
-        else{
-            console.log("wtf?  sprite is not fo");
+        return ColorProvider._instance!;
+    }
+
+    public getColor(type: number): Color {
+        if (type >= 0 && type < this.colors.length) {
+            return this.colors[type].clone();
+        } else {
+            console.warn(`Invalid type ${type}. Returning default color.`);
+            return Color.WHITE.clone(); 
+        }
+    }
+
+    public changeColor(type: number, node: Node) {
+        const sprite = node.getComponent(Sprite);
+        if (sprite) {
+            sprite.color = ColorProvider.getInstance().getColor(type);
+        } else {
+            console.error("The node does not have a Sprite component.");
         }
     }
 }

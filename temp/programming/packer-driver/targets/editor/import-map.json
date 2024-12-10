@@ -2,9 +2,9 @@
   "imports": {
     "cce:/internal/x/cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js",
     "cce:/internal/x/prerequisite-imports": "./chunks/b0/b04882f6528f528d23c15a1a07354592145c07ab.js",
-    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/ColorProvider.ts": "./chunks/3a/3a26fbe2521166c765ba66eaffe3effbc763ab34.js",
-    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Cell.ts": "./chunks/99/995cfd5ccc08d4949a0ba1e7c3cd80fae7bc3b36.js",
-    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts": "./chunks/77/77cf1aa46ed1579d28979415598bf2c691aca6ac.js"
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/Cell.ts": "./chunks/58/58a8130369eab272ba71331a3aeb02ea9d1beee8.js",
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/GridManager.ts": "./chunks/24/247baf6307bc3a5c9bc694df1422767bd91d825f.js",
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/cocos-observer/assets/ColorProvider.ts": "./chunks/d0/d09ded05467039ed855c83482608c3141a0d085b.js"
   },
   "scopes": {
     "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js": {
@@ -35,21 +35,21 @@
       "__unresolved_9": "cce:/internal/x/cc-fu/particle-2d"
     },
     "./chunks/b0/b04882f6528f528d23c15a1a07354592145c07ab.js": {
-      "__unresolved_0": "./chunks/99/995cfd5ccc08d4949a0ba1e7c3cd80fae7bc3b36.js",
-      "__unresolved_1": "./chunks/3a/3a26fbe2521166c765ba66eaffe3effbc763ab34.js",
-      "__unresolved_2": "./chunks/77/77cf1aa46ed1579d28979415598bf2c691aca6ac.js"
+      "__unresolved_0": "./chunks/58/58a8130369eab272ba71331a3aeb02ea9d1beee8.js",
+      "__unresolved_1": "./chunks/d0/d09ded05467039ed855c83482608c3141a0d085b.js",
+      "__unresolved_2": "./chunks/24/247baf6307bc3a5c9bc694df1422767bd91d825f.js"
     },
-    "./chunks/77/77cf1aa46ed1579d28979415598bf2c691aca6ac.js": {
+    "./chunks/24/247baf6307bc3a5c9bc694df1422767bd91d825f.js": {
       "__unresolved_0": "./chunks/84/84741ad843cea9a440c5d8c2d379669b6551400d.js",
-      "__unresolved_1": "./chunks/99/995cfd5ccc08d4949a0ba1e7c3cd80fae7bc3b36.js",
+      "__unresolved_1": "./chunks/58/58a8130369eab272ba71331a3aeb02ea9d1beee8.js",
       "cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js"
     },
-    "./chunks/99/995cfd5ccc08d4949a0ba1e7c3cd80fae7bc3b36.js": {
+    "./chunks/58/58a8130369eab272ba71331a3aeb02ea9d1beee8.js": {
       "__unresolved_0": "./chunks/84/84741ad843cea9a440c5d8c2d379669b6551400d.js",
-      "__unresolved_1": "./chunks/3a/3a26fbe2521166c765ba66eaffe3effbc763ab34.js",
+      "__unresolved_1": "./chunks/d0/d09ded05467039ed855c83482608c3141a0d085b.js",
       "cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js"
     },
-    "./chunks/3a/3a26fbe2521166c765ba66eaffe3effbc763ab34.js": {
+    "./chunks/d0/d09ded05467039ed855c83482608c3141a0d085b.js": {
       "cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js"
     }
   }

@@ -7,7 +7,7 @@ export class Cell extends Component {
     public type: number = 0;
 
     public init(type: number){
-        ColorProvider.changeColor(type,this.node);
+        ColorProvider.getInstance().changeColor(type,this.node);
     }
     
     start() {
