@@ -4,6 +4,8 @@
         "cpu": "12th Gen Intel(R) Core(TM) i5-1235U",
         "version": "Windows 10 Pro"
     },
-    "sceneListMap": {},
+    "sceneListMap": {
+        "1d5ae420-c030-461c-872e-8d88cb8f7aab": "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\cocos-observer\\assets\\scenes\\scene.scene"
+    },
     "deviceMd5": "9ec4c576d7087e2d0a6a3b4edc3876fe"
 }

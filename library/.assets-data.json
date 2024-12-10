@@ -15,9 +15,25 @@
     "url": "db://assets/scenes/scene.scene",
     "value": {
       "depends": [
-        "c77ecaa8-c936-46c4-a5b0-98692673ed87",
+        "1d5ae420-c030-461c-872e-8d88cb8f7aab",
+        "2916dc6c-4787-452d-8caf-3a21e7afd185"
+      ]
+    }
+  },
+  "2916dc6c-4787-452d-8caf-3a21e7afd185": {
+    "url": "db://assets/prefabs/Cell.prefab",
+    "value": {
+      "depends": [
         "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
       ]
     }
+  },
+  "dd6f0d8d-144b-4a3c-a95f-835eacd55a5d": {
+    "url": "db://assets/Cell.ts",
+    "value": {}
+  },
+  "97c4c9bd-08b5-4614-ac8c-3b68ee49585c": {
+    "url": "db://assets/ColorProvicer.ts",
+    "value": {}
   }
 }
